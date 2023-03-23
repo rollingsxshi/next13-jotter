@@ -7,3 +7,26 @@
 
 # T-3 stack with NextJS 13
 
+## PNPM
+```sh
+pnpm install # npm install
+pnpm add <pkg> # npm i <pkg>
+pnpm <cmd> # npm run <cmd>
+```
+
+## Prisma & Supabase
+- create project in supabase
+- settings > database > url connection string
+- update schema.prisma with credentials
+- run `pnpm prisma db push`
+
+## Google OAuth
+- create new project
+- Create new project > APIs & Services > Credentials > Create Credentials > OAuth client id
+
+## Github OAuth
+- steps here [OAuth Client ID](https://scribehow.com/shared/Register_a_GitHub_OAuth_App__JddVsK99QbCZc8qILhFZKw)
+- remember to register app for both localhost and prod url
+
+
+
