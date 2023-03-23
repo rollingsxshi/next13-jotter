@@ -18,7 +18,7 @@ pnpm <cmd> # npm run <cmd>
 - create project in supabase
 - settings > database > url connection string
 - update schema.prisma with credentials
-- run `pnpm prisma db push`
+- run `pnpm prisma db push` for any model changes in schema.prisma file
 
 ## Google OAuth
 - create new project
